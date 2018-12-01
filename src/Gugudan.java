@@ -63,8 +63,8 @@ public class Gugudan {
 			
 		}
 	}*/
-	public static int[] calculate(int times) {
-		int dan[] = new int[9];
+	public static int[] calculate(int times, int length) {
+		int dan[] = new int[length];
 		for(int i = 0; i< dan.length; i++) {
 			dan[i] = (i+1) * times;
 		}
